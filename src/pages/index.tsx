@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Heading } from '@chakra-ui/react';
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
         <meta name="theme-color" content="#dab3f4"></meta>
       </Head>
       <main>
-        <h1>Face recognition app</h1>
+        <Heading as="h1">Face recognition app</Heading>
       </main>
     </>
   );
